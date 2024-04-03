@@ -1,0 +1,52 @@
+:root {
+    --bgcol: rgb(158, 157, 157);
+}
+
+body {
+    background-color: var(--bgcol);
+}
+
+.whole {
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    left: 40%;
+    padding: 15px;
+    background-color: white;
+    height: 520px;
+    width: 320px;
+}
+
+img {
+    width: 20rem;
+}
+
+.para {
+    display: inline-block;
+    /* border: 1px solid green; */
+}
+
+.spann {
+    display: inline-block;
+    border: solid rgb(96, 94, 94);
+    border-radius: 10rem;
+    height: 20px;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+.button{
+    text-align: center;
+}
+.btn {
+    /* border: solid blue; */
+    border-radius: 16rem;
+    color: blue;
+    background-color: skyblue;
+    height: 25px;
+    padding: 10px;
+    display: inline-block;
+}
